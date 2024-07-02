@@ -11,15 +11,16 @@ Template and Static Files Configuration: Sets up directories for templates and s
 How to Use
 Clone the Repository:
 
-sh
-Copy code
+```
+
 git clone https://github.com/yourusername/django-project-generator.git
 cd django-project-generator
 Run the Script:
+```
 
-sh
-Copy code
+```
 python create_django_project.py
+```
 Follow the Prompts:
 
 Enter the project name.
@@ -29,8 +30,8 @@ Create Additional Apps:
 
 After setting up the project, the script will prompt you to create new apps. Follow the prompts to add as many apps as needed.
 Example
-sh
-Copy code
+
+```
 Enter the project name: my_project
 Choose the database:
 1. SQLite
@@ -48,6 +49,7 @@ Database connection successful.
 Do you want to create a new app? (y/n): y
 Enter the app name: my_app
 App my_app created successfully in apps directory.
+```
 Requirements
 Python 3.6+
 Django 4.2+
